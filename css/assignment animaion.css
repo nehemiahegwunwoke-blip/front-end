@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: vertical;
+    animation-duration: 2s;
+    animation-timing-function: vertical;
+    color: whitesmoke;
+    margin: auto, 20px;
+    font-size: 2rem;
+    font-weight:900 ;
+}
+
+@keyframes vertical{
+    0%{
+        transform: translateY(0) ;
+    }
+
+    100%{
+        transform: translateY(500px);
+    }
+}
+
+.box-2{
+    background-color: aquamarine;
+    color: whitesmoke;
+    font-size: 2rem;
+    font-weight: 900;
+    width: 200px;
+    height: 200px;
+    animation-name: infinite bouncing;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    display: flex;
+    justify-content: top;
+    margin: auto;
+}
+
+@keyframes infinite bouncing{
+    0%{
+        transform: translateY(0);
+    }
+
+    50%{
+        transform: translateY(150px);
+    }
+    100%{
+        transform: translateY(100px);
+    }
+}
+
+.box-3{
+   background-color: aquamarine;
+    color: whitesmoke;
+    font-size: 2rem;
+    font-weight: 900;
+    width: 200px;
+    height: 200px;
+    animation-name: spin around;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+}
+
+@keyframes spin around{
+    0%{
+        transform
+    }
+}
